@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756825153097,
+  "lastUpdate": 1758079186997,
   "repoUrl": "https://github.com/LogicLabsAI/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -156,6 +156,58 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.4116,
             "extra": "15007 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ef69fbf75bde6a75a1c4b363ab5cf8618e25a65",
+          "message": "Merge pull request #196 from czlonkowski/n8n-dependencies-update\n\nDependencies Updated\nn8n: 1.110.1 → 1.111.0\nn8n-core: 1.110.0 (unchanged, latest)\nn8n-workflow: 1.108.0 (unchanged, latest)\n@n8n/n8n-nodes-langchain: 1.109.1 → 1.110.0",
+          "timestamp": "2025-09-16T12:24:57+02:00",
+          "tree_id": "33c39a5d79547ca881d87057d33062f4cbdfb228",
+          "url": "https://github.com/LogicLabsAI/n8n-mcp/commit/0ef69fbf75bde6a75a1c4b363ab5cf8618e25a65"
+        },
+        "date": 1758079186729,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0195,
+            "range": "0.32110000000000005",
+            "unit": "ms",
+            "extra": "51225 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1869,
+            "range": "0.48130000000000006",
+            "unit": "ms",
+            "extra": "314 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.2697",
+            "unit": "ms",
+            "extra": "213572 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0679,
+            "range": "0.3072",
+            "unit": "ms",
+            "extra": "14721 ops/sec"
           }
         ]
       }
